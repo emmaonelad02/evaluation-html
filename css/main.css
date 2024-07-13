@@ -1,0 +1,93 @@
+
+:root {
+    --main-color:#563C25;
+    --black: #19191A;
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: c;
+    font-weight: 400; ;
+    padding: 0;
+    margin: 0;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.title-page {
+    font-size: 36px;
+
+}
+
+.container {
+   /*  width: 80%; */
+    max-width: calc(1200px - 20px);
+    margin: auto;
+}
+
+.sign-content .title-page {
+    margin:12px 46px 0;
+}
+
+.form-field {
+    text-align: left;
+    padding: 16px;
+    border: 1px, solid, #D3D3DD;
+    border-radius: 8px;
+    margin-bottom:  8px;
+    background-color: white;
+
+}
+
+.form-field label, .form-field input{
+    display: block;
+    width:100% ;
+}
+.form-field input {
+    border: none;
+}
+
+.form-field input:focus {
+    outline: none;
+    margin-top: 5px;
+
+}
+
+
+.form-submit, .reset-password {
+
+    display: block;
+    text-align: center;
+    width:100% ;
+    border: none;
+}
+
+.form-submit {
+    background-color: #31C940;
+    padding: 16px 24px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0 24px 0;
+    
+}
+
+.reset-password {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    
+}
+
+.form {
+    margin-bottom: 60px;
+
+}
+
+
+
+

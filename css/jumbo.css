@@ -1,0 +1,47 @@
+.jumbo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px;
+    background: linear-gradient(#F8F4ED, #FFF);
+}
+
+.jumbo-content .liste ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 0px;
+}
+
+.jumbo-content .liste ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-content .jumbo-image img{
+    width: 400px;
+}
+
+.jumbo-image image {
+    width:  100%;
+}
+
+.jumbo-image, .jumbo-text {
+    flex-basis:calc(50% - 10px);
+}
+
+.parteners ul {
+    display: flex;
+    margin-left: 0px;
+}
+
+.parteners ul li{
+    list-style: none;
+    
+}
+
+.parteners ul li img{
+    text-decoration: none;
+    width: 60px;
+}

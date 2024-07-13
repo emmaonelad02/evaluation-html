@@ -1,0 +1,28 @@
+.cards {
+    background-color: aliceblue;
+    
+}
+
+.cards > img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+
+}
+
+.cards .caption {
+    padding: 20px;
+}
+
+.cards .cards-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.price p span {
+    font-weight:600 ;
+    text-decoration: line-through;
+    color: var(--gray);
+
+}
